@@ -20,7 +20,7 @@ contract owned {
 interface tokenRecipient { function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData) public; }
 
 contract CCXTokenERC20 {
-    string public constant _myTokeName = 'E&MP Company Token';
+    string public constant _myTokeName = 'E&MP Stock Token';
     string public constant _mySymbol = 'EMP';
     uint public constant _myinitialSupply = 1000000;
     uint8 public constant _myDecimal = 18;
